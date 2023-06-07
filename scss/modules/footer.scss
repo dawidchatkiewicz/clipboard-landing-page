@@ -2,6 +2,12 @@ footer {
 	padding: 1.8rem;
 	margin-bottom: 14px;
 	background: $lightGray;
+	@media (min-width: $desktop) {
+		max-width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+	}
 }
 .footer__logo {
 	margin: 54px auto;
@@ -12,12 +18,10 @@ footer {
 }
 
 .footer__link {
-	padding-top: 36px;
-	padding-bottom: 0px;
-}
-
-.footer__links-column {
-	padding: 0px;
+	padding-top: 2rem;
+	@media (min-width: $desktop) {
+		text-align: left;
+	}
 }
 
 .footer__social {
@@ -29,4 +33,5 @@ footer {
 	align-items: center;
 	justify-content: center;
 	gap: 2rem;
+	margin-top: 3rem;
 }

@@ -1,6 +1,10 @@
 .workflow {
 	padding: 1.8rem;
 	margin-bottom: 104px;
+	@media (min-width: $desktop) {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 }
 
 .workflow-description {
@@ -22,5 +26,18 @@
 	&__paragraph {
 		line-height: 1.6rem;
 		margin-bottom: 2rem;
+		font-size: 1rem;
+	}
+	&__img {
+		height: 35px;
+	}
+}
+@media (min-width: $desktop) {
+	.workflow-items-area {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: start;
+		justify-content: center;
+		gap: 3rem;
 	}
 }

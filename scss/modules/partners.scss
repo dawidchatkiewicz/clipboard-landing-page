@@ -1,11 +1,21 @@
 .partners {
 	padding: 1.8rem;
 	margin-bottom: 104px;
+	@media (min-width: $desktop) {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 }
 
 .partners__logo {
 	display: flex;
 	flex-direction: column;
+	@media (min-width: $desktop) {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 5rem;
+	}
 }
 
 .partners__logo-item {

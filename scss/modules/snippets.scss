@@ -1,9 +1,23 @@
 .snippets {
 	padding: 1.8rem;
 	margin-bottom: 104px;
+
+	@media (min-width: $desktop) {
+		max-width: 960px;
+		margin: 0 auto;
+		margin-bottom: 104px;
+		&__grid {
+			position: relative;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 2rem;
+			align-items: center;
+		}
+	}
 }
 
 .snippets-description {
+	margin-bottom: 104px;
 	&__title {
 		font-size: 2.2rem;
 	}
@@ -22,11 +36,23 @@
 		line-height: 1.6rem;
 		margin-bottom: 2rem;
 	}
+	@media (min-width: $desktop) {
+		text-align: left;
+	}
 }
 
 .snippets-image {
 	max-width: 100%;
+	@media (min-width: $desktop) {
+		// position: relative;
+	}
 }
 .snippets-img {
 	max-width: 100%;
+	@media (min-width: $desktop) {
+		position: absolute;
+		top: -5%;
+		left: -25vw;
+		width: 45rem;
+	}
 }

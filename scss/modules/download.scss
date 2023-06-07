@@ -1,6 +1,11 @@
 .download {
 	padding: 1.8rem;
 	margin-bottom: 104px;
+	@media (min-width: $tablet) {
+		max-width: 768px;
+		margin: 0 auto;
+		margin-bottom: 104px;
+	}
 }
 
 .download-description {
@@ -19,28 +24,31 @@
 		flex-direction: column;
 		justify-content: center;
 		align-content: center;
-		gap: 3;
+		gap: 1rem;
+		@media (min-width: $tablet) {
+			flex-direction: row;
+		}
 
 		&--green {
 			background: $strongCyan;
-			padding: 20px 80px;
+			padding: 20px 50px;
 			border-radius: 30px;
 			color: #fff;
 			outline: none;
 			border: none;
-			font-size: 1.2rem;
-			margin: 15px auto;
+			font-size: 1rem;
+			margin: 15px 0;
 			box-shadow: 4px 4px 12px 4px hsl(210, 10%, 33%, 0.2);
 		}
 		&--violet {
 			background: $lightBlue;
-			padding: 20px 80px;
+			padding: 20px 50px;
 			border-radius: 30px;
 			color: #fff;
 			outline: none;
 			border: none;
-			font-size: 1.2rem;
-			margin: 15px auto;
+			font-size: 1rem;
+			margin: 15px 0;
 			box-shadow: 4px 4px 12px 4px hsl(210, 10%, 33%, 0.2);
 		}
 	}
