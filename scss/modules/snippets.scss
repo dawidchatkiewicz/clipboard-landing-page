@@ -1,0 +1,31 @@
+.snippets {
+	padding: 1.8rem;
+}
+
+.snippets-description {
+	&__title {
+		font-size: 2.2rem;
+	}
+	&__paragraph {
+		line-height: 1.6rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.snippets-item {
+	&__title {
+		font-size: 1.7rem;
+		margin-top: 3rem;
+	}
+	&__paragraph {
+		line-height: 1.6rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.snippets-image {
+	max-width: 100%;
+}
+.snippets-img {
+	max-width: 100%;
+}

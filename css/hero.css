@@ -1,0 +1,13 @@
+.hero {
+  padding: 104px 16px 0;
+}
+.hero__logo {
+  margin-bottom: 54px;
+}
+.hero__title {
+  font-size: 2.3rem;
+}
+.hero__paragraph {
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=hero.css.map */

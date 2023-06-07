@@ -1,0 +1,35 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+@import '_variables';
+@import 'modules/hero.scss';
+@import 'modules/snippets.scss';
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	color: $grayishBlue;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	color: $darkGrayishBlue;
+}
+
+ul {
+	list-style-type: none;
+}
