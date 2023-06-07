@@ -1,9 +1,13 @@
-@import '~normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
-@import '_variables';
+@import '_variables.scss';
 @import 'modules/hero.scss';
 @import 'modules/snippets.scss';
+@import 'modules/access.scss';
+@import 'modules/workflow.scss';
+@import 'modules/partners.scss';
+@import 'modules/download.scss';
+@import 'modules/footer.scss';
 
 html {
 	box-sizing: border-box;
@@ -32,4 +36,5 @@ h3 {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }

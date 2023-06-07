@@ -1,0 +1,22 @@
+footer {
+  padding: 1.8rem;
+  margin-bottom: 14px;
+  background: grayishBlue;
+}
+
+.footer__logo {
+  width: 54px;
+  height: 54px;
+}
+
+.workflow-item {
+  margin-top: 104px;
+}
+.workflow-item__title {
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+.workflow-item__paragraph {
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=footer.css.map */

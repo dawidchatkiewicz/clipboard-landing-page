@@ -1,17 +1,9 @@
-.hero {
+.download {
 	padding: 1.8rem;
 	margin-bottom: 104px;
-	&__background {
-		position: absolute;
-		width: 100%;
-		z-index: -1;
-	}
-	&__background-image {
-		width: 100%;
-	}
-	&__logo {
-		margin: 104px auto;
-	}
+}
+
+.download-description {
 	&__title {
 		font-size: 2.3rem;
 	}
@@ -19,6 +11,9 @@
 		line-height: 1.6rem;
 		margin-bottom: 2rem;
 	}
+}
+
+.download {
 	&__buttons {
 		display: flex;
 		flex-direction: column;

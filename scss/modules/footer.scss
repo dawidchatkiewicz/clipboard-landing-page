@@ -1,0 +1,32 @@
+footer {
+	padding: 1.8rem;
+	margin-bottom: 14px;
+	background: $lightGray;
+}
+.footer__logo {
+	margin: 54px auto;
+}
+.footer__logo-img {
+	width: 64px;
+	height: 64px;
+}
+
+.footer__link {
+	padding-top: 36px;
+	padding-bottom: 0px;
+}
+
+.footer__links-column {
+	padding: 0px;
+}
+
+.footer__social {
+	margin-top: 3rem;
+}
+
+.social__media-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}

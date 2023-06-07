@@ -1,0 +1,24 @@
+.workflow {
+  padding: 1.8rem;
+  margin-bottom: 104px;
+}
+
+.workflow-description__title {
+  font-size: 2.2rem;
+}
+.workflow-description__paragraph {
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.workflow-item {
+  margin-top: 104px;
+}
+.workflow-item__title {
+  font-size: 1.7rem;
+  margin-top: 3rem;
+}
+.workflow-item__paragraph {
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=workflow.css.map */
